@@ -203,7 +203,6 @@ gulp.task(
         server: {
           baseDir: path.build.dirDev,
         },
-        open: false,
       });
     })
   )
