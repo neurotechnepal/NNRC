@@ -63,11 +63,19 @@ a:hover, a:focus, a:visited {
   outline: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0px;
 }
 
-input, button, select, textarea {
+input,
+button,
+select,
+textarea {
   font-family: "Roboto", sans-serif;
 }
 
@@ -124,7 +132,8 @@ li {
   margin: 0px;
 }
 
-.anim-3, .anim-3-all * {
+.anim-3,
+.anim-3-all * {
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -132,7 +141,8 @@ li {
   -o-transition: all 0.3s ease;
 }
 
-.anim-5, .anim-5-all * {
+.anim-5,
+.anim-5-all * {
   transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -140,7 +150,8 @@ li {
   -o-transition: all 0.5s ease;
 }
 
-.anim-7, .anim-7-all * {
+.anim-7,
+.anim-7-all * {
   transition: all 0.7s ease;
   -moz-transition: all 0.7s ease;
   -webkit-transition: all 0.7s ease;
