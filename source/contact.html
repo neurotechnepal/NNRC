@@ -37,55 +37,62 @@
       </div>
       <div class="col-lg-8 col-md-7">
         <div class="contact-form">
-          <!-- contact form start -->
-          <form action="!#" class="row">
-            <!-- name -->
-            <div class="col-lg-6">
-              <input
-                type="text"
-                name="name"
-                class="form-control main"
-                placeholder="Name"
-                required
-              />
-            </div>
-            <!-- email -->
-            <div class="col-lg-6">
-              <input
-                type="email"
-                class="form-control main"
-                placeholder="Email"
-                required
-              />
-            </div>
-            <!-- phone -->
-            <div class="col-lg-12">
-              <input
-                type="text"
-                class="form-control main"
-                placeholder="Phone"
-                required
-              />
-            </div>
-            <!-- message -->
-            <div class="col-lg-12">
-              <textarea
-                name="message"
-                rows="10"
-                class="form-control main"
-                placeholder="Your message"
-              ></textarea>
-            </div>
-            <!-- submit button -->
-            <div class="col-md-12 text-right">
-              <button class="btn btn-style-one" type="submit">
-                Send Message
-              </button>
-            </div>
-          </form>
-          <!-- contact form end -->
+           <!-- contact form start -->
+           <form action="https://api.web3forms.com/submit" class="row" method="POST">
+             <!-- Replace with your Access Key -->
+             <input type="hidden" name="access_key" value="7b558f96-b207-4680-a41c-bb4967e0f77a">
+       
+             <!-- name -->
+             <div class="col-lg-6">
+               <input
+                 type="text"
+                 name="Name"
+                 class="form-control main"
+                 placeholder="Name"
+                 required
+               />
+             </div>
+             <!-- email -->
+             <div class="col-lg-6">
+               <input
+                 type="email"
+                 class="form-control main"
+                 name="Email"
+                 placeholder="Email"
+                 required
+               />
+             </div>
+             <!-- phone -->
+             <div class="col-lg-12">
+               <input
+                 type="text"
+                 class="form-control main"
+                 name="Phone"
+                 placeholder="Phone"
+                 required
+               />
+             </div>
+             <!-- message -->
+             <div class="col-lg-12">
+               <textarea
+                 name="Message"
+                 rows="10"
+                 class="form-control main"
+                 placeholder="Your message"
+               ></textarea>
+             </div>
+             <!-- submit button -->
+             <div class="col-md-12 text-right">
+               <button class="btn btn-style-one" type="submit">
+                 Send Message
+               </button>
+             </div>
+             <script src="https://web3forms.com/client/script.js" async defer></script>
+           </form>
+           <!-- contact form end -->
         </div>
-      </div>
+       </div>
+       
     </div>
   </div>
   <!-- container end -->
